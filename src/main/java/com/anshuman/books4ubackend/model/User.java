@@ -24,6 +24,7 @@ public class User implements Serializable {
 	@Id
 	@Column(name = "users")
 	private String username;
+	private String Name;
 	private boolean active;  //check if user registered or not
 	@Column(nullable = false)
 	private String password;
@@ -39,6 +40,12 @@ public class User implements Serializable {
 	}
 	public void setUsername(String username) {
 		this.username = username;
+	}
+	public String getName() {
+		return Name;
+	}
+	public void setName(String name) {
+		Name = name;
 	}
 	public String getPassword() {
 		return password;
@@ -79,6 +86,8 @@ public class User implements Serializable {
 	public void setRole(String role) {
 		this.role = role;
 	}
+	
+	
 	
 	@Override
 	public boolean equals(Object obj) {

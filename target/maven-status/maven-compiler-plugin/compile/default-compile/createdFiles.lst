@@ -1,0 +1,13 @@
+com\anshuman\books4ubackend\Dao\impl\UserDAOImpl.class
+com\anshuman\books4ubackend\Dao\UserDAO.class
+com\anshuman\books4ubackend\Dao\ProductDAO.class
+com\anshuman\books4ubackend\Dao\impl\ProductDAOImpl.class
+com\anshuman\books4ubackend\model\Category.class
+com\anshuman\books4ubackend\Dao\impl\CategoryDAOImpl.class
+com\anshuman\books4ubackend\model\Product.class
+com\anshuman\books4ubackend\Dao\CategoryDAO.class
+com\anshuman\books4ubackend\configuration\HibernateConfiguration.class
+com\anshuman\books4ubackend\model\User.class
+com\anshuman\books4ubackend\Dao\impl\SupplierDAOImpl.class
+com\anshuman\books4ubackend\model\Supplier.class
+com\anshuman\books4ubackend\Dao\SupplierDAO.class

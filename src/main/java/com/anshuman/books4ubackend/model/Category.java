@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Entity
-@Table(name="categories")
+@Table(name="category_data")
 public class Category implements Serializable{
 
 	/**

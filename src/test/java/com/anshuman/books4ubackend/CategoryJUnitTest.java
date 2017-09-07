@@ -1,4 +1,4 @@
-package com.anshuman.books4ubackend;
+/*package com.anshuman.books4ubackend;
 
 import static org.junit.Assert.*;
 
@@ -31,7 +31,7 @@ public class CategoryJUnitTest {
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 		context = new AnnotationConfigApplicationContext();
-		context.scan("com.arjun.games4ubackend");
+		context.scan("com.anshuman.books4ubackend");
 		context.refresh();
 
 		category = (Category) context.getBean("category");
@@ -44,6 +44,7 @@ public class CategoryJUnitTest {
 		category.setCategoryName("one more new Category");
 		category.setCategoryDescription("some decsription");
 		category.setActive(true);
+		
 
 		assertTrue(categoryDAO.saveCategory(category));
 	}
@@ -106,4 +107,4 @@ public class CategoryJUnitTest {
 		assertFalse(categoryDAO.deleteCategory(category));
 	}
 
-}
+}*/
